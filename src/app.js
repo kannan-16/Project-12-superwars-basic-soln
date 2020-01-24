@@ -29,7 +29,7 @@ const initPlayers = (players) => {
     for (i = 0; i < players.length; i++) {
         detailedPlayers[i] = {
             name: players[i],
-            image: "images/super-" + (i + 1) + ".png",
+            image: "../images/super-" + (i + 1) + ".png",
             strength: getRandomStrength(),
             type: (i % 2 == 0) ? "hero" : "villain"
         };
